@@ -1,0 +1,49 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+li{
+    float: left;
+    position: relative;
+    left: 20%;
+}
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+    li a:hover:not(.active) {
+    opacity: 0.6;
+}
+.active {
+    background-color: #04AA6D;
+}
+Button{
+    position: relative;
+    left: 60%;
+    margin: 20px;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #0c71c3;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+Button:hover{
+    color: #0c71c3;
+    background-color: white;
+    border: 1px solid #0c71c3;
+    width: 140px;
+    height: 42px;
+}
