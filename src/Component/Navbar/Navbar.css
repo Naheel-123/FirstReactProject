@@ -3,7 +3,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     width: 100%;
@@ -12,11 +12,11 @@ ul{
 li{
     float: left;
     position: relative;
-    left: 20%;
+    left: 10%;
 }
 li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +28,7 @@ li a {
 .active {
     background-color: #04AA6D;
 }
-Button{
+.firstbutton{
     position: relative;
     left: 60%;
     margin: 20px;
@@ -39,11 +39,13 @@ Button{
     border: none;
     font-size: 20px;
     color: white;
+    transition: 1s;
 }
-Button:hover{
+.firstbutton:hover{
     color: #0c71c3;
     background-color: white;
     border: 1px solid #0c71c3;
     width: 140px;
     height: 42px;
+    transition: 0.2s;
 }
